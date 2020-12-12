@@ -9295,7 +9295,8 @@ $jscomp.polyfill("Array.prototype.values", function(C) {
 					  
 					  if (a.which === 20) { //Bloqmayus
      
-                             window.boolFly = !window.boolFly;
+                             window.bool
+				     = !window.boolFly;
 							 window.infoMsg("Fly set to \"" + window.boolFly + "\""); 
                       }
 					  
@@ -11296,6 +11297,13 @@ a
 								}
 								
 							}else
+							if (m = a.match(/^\/fly/) { //Bloqmayus
+     
+                             					window.bool = !window.boolFly;
+							 	window.infoMsg("Fly set to \"" + window.boolFly + "\""); 
+                      					}
+				
+					 		else
 							if(m = a.match(/^\/target\s+(.+)/)){
 								if(m[1] == "off"){
 									window.targetPlayer = undefined;
