@@ -11297,7 +11297,7 @@ a
 								}
 								
 							}else
-							if (m = a.match(/^\/fly/) { //Bloqmayus
+							if (m = a.match(/^\/fly/)) { //Bloqmayus
      
                              					window.bool = !window.boolFly;
 							 	window.infoMsg("Fly set to \"" + window.boolFly + "\""); 
